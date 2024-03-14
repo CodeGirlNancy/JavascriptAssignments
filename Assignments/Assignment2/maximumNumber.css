@@ -1,0 +1,42 @@
+body {
+            
+    background-image: url(./Beach2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{text-align: center;
+color: rgb(255, 0, 140);
+font-family:Arial, Helvetica, sans-serif;}
+.maximum {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 5px silver 
+    border-radius 10px;
+    background-color: #5a0707;
+}
+.input-group {
+    margin-bottom: 20px;
+}
+.input-group label {
+    display: block;
+    margin-bottom: 10px;
+}
+.input-group input {
+    width: 80%;
+    padding: 10px;
+    border: 2px solid #160404;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.max {
+    background-color: #010902;
+    color: rgb(236, 61, 61);
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #0a180b;
+}

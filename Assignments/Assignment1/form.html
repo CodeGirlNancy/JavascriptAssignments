@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title> ADOKORAC</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./styles/form.css">
+    </head>
+    <body>
+        <h1 style="text-align: center; font-size: 60px; color: rgb(216, 237, 100);">Form design</h1>
+        <form id="form1" onsubmit="return validateForm2()">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br><br>
+            <button type="submit" style="background-color: rgb(178, 237, 100); font-size: large; font-weight: bolder;">Submit</button>
+            
+        </form>
+          
+          <script>
+          function validateForm2() {
+            if (document.getElementById("email").value === "" ||
+                document.getElementById("name").value === "" ||
+                document.getElementById("password").value === "") {
+              alert("Please fill in all values.");
+            return false;
+            }
+            return true; 
+          }
+          </script>
+        
+        <script src="" async defer></script>
+    </body>
+</html>
